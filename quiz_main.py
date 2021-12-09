@@ -1,10 +1,13 @@
 # importing the question dictionary from the questions library
 from components.quiz_dictionary import questions
 from components import quiz_array, quiz_functions
+#import emoji
 
 print ("WELCOME TO WINNIE THE POOH 'guess who' GAME")
 print ("Rules: answer the questions asked, and we will guess the character in your mind....Simple rt?! ")
 print( "Lets get started...")
+
+#print(emoji.emojize(":grinning_face_with_big_eyes:"))
 
 answer1 =  questions["q1"] [input (questions["q1"] ["ques_1"]) ]
 
